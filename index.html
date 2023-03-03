@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>U-dev</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <link rel="stylesheet" href="./src/style/index.css" media="all" />
+  <script src="./src/script/index.js" defer></script>
+  <link rel="shortcut icon" href="./images/logoUp.png" media="all" />
+</head>
+
+<body class="dark-mode">
+  <header>
+    <div class="container flex">
+      <div class="head-1">
+        <h1>U-Dev</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="https://github.com/UDAY-2997/MITT-HTML5-CSS3" target="_blank">Gtihub</a></li>
+          <li><a href="https://github.com/UDAY-2997/MITT-HTML5-CSS3" target="_blank">Gitlab</a></li>
+          <li><a href="#">About me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <section>
+        <h2>Temperature converter</h2>
+        <form name="calcTemp">
+          <div class="input-1">
+            <input type="text" class="input" placeholder="Enter Temperature">
+            <input type="button" class="convert" value="Convert">
+          </div>
+          <div class="input-2">
+            <input type="radio" id="farenheit" name="temperature" value="farenheit" checked>
+            <label for="farenheit" class="radio-1">To Farenheit</label>
+            <input type="radio" id="celcius" name="temperature" value="celcius">
+            <label for="celcius">To Celcius</label>
+          </div>
+        </form>
+        <div class="output">
+          <p></p>
+        </div>
+      </section>
+      <div>
+        <button type="button" class="changeBg">Light Mode</button>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
